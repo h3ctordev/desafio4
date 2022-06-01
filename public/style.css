@@ -1,0 +1,31 @@
+.my-form {
+  border-radius: 15px;
+  border: 5px solid rgb(0, 27, 145);
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.button-area {
+  text-align: center;
+  margin-top: 3rem;
+}
+.my-button {
+  border-radius: 12px;
+  background-color: transparent;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+label {
+  display: block;
+  width: 22rem;
+  margin: auto;
+  font-size: 18px;
+  justify-items: left;
+}
