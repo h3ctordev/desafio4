@@ -51,7 +51,7 @@ router.get("/productos/:id", (req, res) => {
 router.post("/productos", (req, res) => {
   console.log("Create products");
   if (!req.body?.title || !req?.body?.price || !req?.body?.thumbnail) {
-    res.status(400).json({ message: "Faltaron parametros" });
+    return res.status(400).json({ message: "Faltaron parametros" });
   }
   res.status(200).json(products.save(req.body));
 });
